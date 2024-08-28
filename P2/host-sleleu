@@ -1,0 +1,3 @@
+FROM alpine:3.20
+
+COPY ./init-host.sh /init.sh
