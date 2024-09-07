@@ -1,2 +1,4 @@
-docker build -f host_sleleu -t host_sleleu .
-docker build -f router_sleleu -t router_sleleu .
+#!/bin/sh
+
+docker build --no-cache -f host_tsantoni -t host_tsantoni .
+docker build --no-cache -f router_tsantoni -t router_tsantoni .

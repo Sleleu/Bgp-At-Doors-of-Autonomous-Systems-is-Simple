@@ -1,0 +1,30 @@
+!
+! Zebra configuration saved from vty
+!   2024/09/06 14:45:24
+!
+frr version 8.4_git
+frr defaults traditional
+!
+hostname router_tsantoni_2
+!
+!
+!
+!
+!
+interface eth0
+ ip ospf area 0
+exit
+!
+!
+interface lo
+ ip ospf area 0
+exit
+!
+!
+router ospf
+
+exit
+!
+!
+!
+!
